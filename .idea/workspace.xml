@@ -20,15 +20,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {}
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/deepbharty/DemoWebAutomationTest",
-    "accountId": "28c861bf-bb44-407c-9061-c8611eff9d3f"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {}
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/deepbharty/DemoWebAutomationTest&quot;,
+    &quot;accountId&quot;: &quot;28c861bf-bb44-407c-9061-c8611eff9d3f&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -40,25 +40,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Cucumber Java.Feature: JenkinsLogin.executor": "Run",
-    "Cucumber Java.Feature: start.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "TestNG./Users/a1xizd7d/IdeaProjects/DemoWebAutomationTest/src/test/java/runner/testRunner.xml.executor": "Run",
-    "TestNG.Maths.executor": "Run",
-    "TestNG.TestRunner.executor": "Coverage",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/a1xizd7d/IdeaProjects/DemoWebAutomationTest/src/test/java",
-    "onboarding.tips.debug.path": "/Users/a1xizd7d/IdeaProjects/DemoWebAutomationTest/src/main/java/DemoTestAPiAutomation/Main.java",
-    "project.structure.last.edited": "Problems",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "vcs.Git"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Cucumber Java.Feature: JenkinsLogin.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: start.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;TestNG./Users/a1xizd7d/IdeaProjects/DemoWebAutomationTest/src/test/java/runner/testRunner.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Maths.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestRunner.executor&quot;: &quot;Coverage&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/a1xizd7d/IdeaProjects/DemoWebAutomationTest/src/test/java&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/a1xizd7d/IdeaProjects/DemoWebAutomationTest/src/main/java/DemoTestAPiAutomation/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/java" />
