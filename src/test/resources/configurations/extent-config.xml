@@ -1,0 +1,20 @@
+<extentreports>
+    <configuration>
+        <!-- Report Title -->
+        <reportName>Automation Test Report</reportName>
+        <documentTitle>Execution Summary</documentTitle>
+
+        <!-- Theme: STANDARD or DARK -->
+        <theme>DARK</theme>
+
+        <!-- Encoding -->
+        <encoding>UTF-8</encoding>
+
+        <!-- Timeline visibility -->
+        <timelineEnabled>true</timelineEnabled>
+
+        <!-- Timestamp format -->
+        <timeStampFormat>dd MMM yyyy HH:mm:ss</timeStampFormat>
+    </configuration>
+</extentreports>
+
