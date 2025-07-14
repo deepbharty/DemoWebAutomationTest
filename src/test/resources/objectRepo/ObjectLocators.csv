@@ -1,10 +1,13 @@
 S.No,Page_Name,Folder_Path,Identifier_Name,Locator,Locator_Value
-1,Jira_Login_Page,ObjectRepo/web,OLM_ID_Entry,ID,userNameInput
-2,Jira_Login_Page,ObjectRepo/web,Password_Entry,ID,passwordInput
-3,Jira_Login_Page,ObjectRepo/web,Btn_Sign_in,ID,submitButton
-4,Account_Selection_Page,ObjectRepo/web,Select_Login_Account,XPATH,//img[@alt='Bharti Airtel']
-5,OTP_Page,ObjectRepo/web,OTPSubmitButton,ID,signInButton
-6,OTP_Page,ObjectRepo/web,OTP_Input_Value,ID,verificationCodeInput
-7,"Dashboard_Page","ObjectRepo/web","Dashboard_Text","XPATH","//*[text()='Dashboards']"
-
-
+1,Jira_Login_Page,ObjectRepo/web,OLM_ID_Entry,id,userNameInput
+2,Jira_Login_Page,ObjectRepo/web,Password_Entry,id,passwordInput
+3,Jira_Login_Page,ObjectRepo/web,Btn_Sign_in,id,submitButton
+4,Account_Selection_Page,ObjectRepo/web,Select_Login_Account,xpath,//img[@alt='Bharti Airtel']
+5,OTP_Page,ObjectRepo/web,OTPSubmitButton,id,signInButton
+6,OTP_Page,ObjectRepo/web,OTP_Input_Value,id,verificationCodeInput
+7,Dashboard_Page,ObjectRepo/web,Dashboard_Text,xpath,//*[text()='Dashboards']
+8,OrangeHRM_Login_Page,ObjectRepo/web,OHRM_Username_Input,name,username
+9,OrangeHRM_Login_Page,ObjectRepo/web,OHRM_Password_Input,name,password
+10,OrangeHRM_Login_Page,ObjectRepo/web,OHRM_Login_Button,xpath,//button[@type='submit']
+11,OrangeHRM_Login_Page,ObjectRepo/web,OHRM_Dashboard_Header,xpath,//h6[text()='Dashboard']
+12,OrangeHRM_Login_Page,ObjectRepo/web,OHRM_Login_Error_Message,xpath,//p[text()='Invalid credentials']

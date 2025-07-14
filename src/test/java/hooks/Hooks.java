@@ -18,10 +18,11 @@ import java.io.IOException;
 public class Hooks {
 
     private static ExtentReports extent;
-    private static ThreadLocal<ExtentTest> testThreadLocal = new ThreadLocal<>();
+    private static final ThreadLocal<ExtentTest> testThreadLocal = new ThreadLocal<>();
 
     @Before(order = 0)
     public void setUpDriver() {
+
         DriverFactory.initializeDriver();
     }
 

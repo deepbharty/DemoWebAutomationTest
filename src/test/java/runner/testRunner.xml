@@ -4,7 +4,7 @@
 
     <parameter name="browser" value="chrome" />
     <parameter name="environment" value="qa" />
-    <parameter name="cucumber.filter.tags" value="@JiraLogin" />
+    <parameter name="cucumber.filter.tags" value="@OrangeHRMLogin" />
 
     <test name="Run Cucumber Tests">
         <classes>

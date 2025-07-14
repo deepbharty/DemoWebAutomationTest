@@ -6,20 +6,22 @@ import io.cucumber.java.en.*;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import utils.ConfigReader;
 import utils.DriverFactory;
 import utils.ElementFinder;
 
 import java.time.Duration;
 
+import static utils.DriverFactory.initializeDriver;
+
 public class JiraLogin {
 
-    private final WebDriver driver;
     private final ElementFinder finder;
     private final WebDriverWait wait;
     private final ExtentTest logger;
 
     public JiraLogin() {
-        driver = DriverFactory.getDriver();
+        WebDriver driver = DriverFactory.getDriver();
         finder = new ElementFinder(driver);
         wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         logger = Hooks.getTest();
@@ -27,7 +29,7 @@ public class JiraLogin {
 
     @Given("User is on the Jira login page")
     public void userIsOnTheJiraLoginPage() {
-        driver.get("https://adsso.airtel.com/adfs/ls/...your_url_here...");
+       // initializeDriver();
         logger.info("Navigated to Jira login page.");
     }
 
@@ -41,18 +43,18 @@ public class JiraLogin {
     @When("User enters valid OLM ID")
     public void userEntersValidOLMID() {
         WebElement olmIdField = finder.getLocator("OLM_ID_Entry");
-        olmIdField.sendKeys("A1XIZD7D");
+        olmIdField.sendKeys(ConfigReader.getProperty("username"));
         logger.info("Entered valid OLM ID.");
     }
 
     @And("User enters valid password")
     public void userEntersValidPassword() {
         WebElement passwordField = finder.getLocator("Password_Entry");
-        passwordField.sendKeys("Hard#2580");
+        passwordField.sendKeys(ConfigReader.getProperty("password"));
         logger.info("Entered valid password.");
     }
 
-    @And("User clicks on the Login button")
+    @And("User click on the Login button")
     public void userClicksOnTheLoginButton() {
         WebElement signInButton = finder.getLocator("Btn_Sign_in");
         signInButton.click();
@@ -70,7 +72,7 @@ public class JiraLogin {
         WebElement otpField = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("verificationCodeInput")));
         String enteredOtp = otpField.getDomProperty("value");
         logger.info("Entered OTP value: " + enteredOtp);
-        Thread.sleep(6000);
+        Thread.sleep(10000);
     }
 
     @And("User submits the OTP")
