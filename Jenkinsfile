@@ -17,7 +17,7 @@ pipeline {
         stage('Run Maven Tests with XML') {
             steps {
                 bat """
-                    mvn clean test -DsuiteXmlFile=src/test/resources/TestRunner.xml -Dbrowser=${params.browser} -Denvironment=${params.environment} -Dcucumber.filter.tags="${params.cucumberTags}"
+                    mvn clean test -DsuiteXmlFile=src/test/java/runner/TestRunner.xml -Dbrowser=${params.browser} -Denvironment=${params.environment} -Dcucumber.filter.tags="${params.cucumberTags}"
                 """
             }
         }
