@@ -40,7 +40,7 @@ public class OrangeHRMLoginSteps {
         usernameField.sendKeys(ConfigReader.getProperty("username"));
         logger.info("Entered username: " + ConfigReader.getProperty("username"));
 
-        finder.
+
     }
 
     @And("User enters password")
