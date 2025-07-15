@@ -5,20 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a88c80c-49d1-45f1-a564-91d69a27c03c" name="Changes" comment="first commit 03">
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/OrangeHRMLoginSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/OrangeHRMLogin.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/csv-editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/config/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/config/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hooks/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hooks/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runner/testRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/testRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/JiraLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/JiraLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/ConfigReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/ElementFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/ElementFinder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Login to jira.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Login to jira.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/objectRepo/ObjectLocators.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/objectRepo/ObjectLocators.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/ExtentReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/ExtentReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/OrangeHRMLogin.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/OrangeHRMLogin.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +67,7 @@
     &quot;TestNG.TestRunner.executor&quot;: &quot;Coverage&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/AutomationWorkSpace/DemoWebAutomationTest/src/test/java/config&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/AutomationWorkSpace/DemoWebAutomationTest&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;/Users/a1xizd7d/IdeaProjects/DemoWebAutomationTest/src/main/java/DemoTestAPiAutomation/Main.java&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
@@ -305,6 +296,9 @@
     </task>
     <option name="localTasksCounter" value="11" />
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="Jenkinsfile" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
