@@ -16,17 +16,4 @@
         <!-- Timestamp format -->
         <timeStampFormat>dd MMM yyyy HH:mm:ss</timeStampFormat>
     </configuration>
-
-    <systemInfo>
-        <info>
-            <key>Browser</key>
-            <value>${browser}</value>
-        </info>
-
-        <info>
-            <key>Base URL</key>
-            <value>${baseURL}</value>
-        </info>
-
-    </systemInfo>
 </extentreports>
