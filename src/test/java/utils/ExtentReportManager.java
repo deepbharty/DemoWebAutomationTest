@@ -24,7 +24,7 @@ public class ExtentReportManager {
 
             // Load system info dynamically from config.properties
             Properties props = new Properties();
-            FileInputStream fis = new FileInputStream("src/test/resources/config/config.properties");
+            FileInputStream fis = new FileInputStream("src/test/resources/configurations/config.properties");
             props.load(fis);
 
             extent.setSystemInfo("Browser", props.getProperty("browser"));

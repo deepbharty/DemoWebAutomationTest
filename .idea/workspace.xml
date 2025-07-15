@@ -52,7 +52,7 @@
   }
 }</component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -66,6 +66,8 @@
   &quot;keyToString&quot;: {
     &quot;Cucumber Java.Feature: JenkinsLogin.executor&quot;: &quot;Run&quot;,
     &quot;Cucumber Java.Feature: start.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.DemoWebAutomationTest [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.DemoWebAutomationTest [test].executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
@@ -74,7 +76,7 @@
     &quot;TestNG.TestRunner.executor&quot;: &quot;Coverage&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/a1xizd7d/IdeaProjects/DemoWebAutomationTest/src/test/java&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/AutomationWorkSpace/DemoWebAutomationTest/src/test/java/config&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;/Users/a1xizd7d/IdeaProjects/DemoWebAutomationTest/src/main/java/DemoTestAPiAutomation/Main.java&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
@@ -91,9 +93,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\AutomationWorkSpace\DemoWebAutomationTest\src\test\java\config" />
       <recent name="$PROJECT_DIR$/src/test/java" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\AutomationWorkSpace\DemoWebAutomationTest\src\test\resources\configurations" />
       <recent name="$PROJECT_DIR$/src/test/resources" />
     </key>
   </component>
@@ -283,7 +287,23 @@
       <option name="project" value="LOCAL" />
       <updated>1752569222721</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Updated after changing Report folder range HRM 150725">
+      <option name="closed" value="true" />
+      <created>1752569903517</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1752569903517</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Updated after changing Report folder range HRM 150725">
+      <option name="closed" value="true" />
+      <created>1752569960088</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1752569960088</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

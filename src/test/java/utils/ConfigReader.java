@@ -10,7 +10,7 @@ public class ConfigReader {
 
     static {
         try {
-            FileInputStream fis = new FileInputStream("src/test/java/config/config.properties");
+            FileInputStream fis = new FileInputStream("src/test/resources/configurations/config.properties");
 
             properties = new Properties();
             properties.load(fis);

@@ -16,8 +16,7 @@ import org.testng.annotations.Parameters;
                 "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:" // ✅ Extent Report Adapter
         },
         monochrome = true,
-        dryRun = false,
-        tags = "@Login"
+        dryRun = false
 )
 public class TestRunner extends AbstractTestNGCucumberTests {
 
@@ -30,6 +29,7 @@ public class TestRunner extends AbstractTestNGCucumberTests {
                 System.setProperty("browser", browser);
                 System.setProperty("environment", environment);
                 System.setProperty("cucumber.filter.tags", tags);
+
 
                 System.out.println("Running tests on Browser: " + browser + ", Env: " + environment + ", Tags: " + tags);
         }
