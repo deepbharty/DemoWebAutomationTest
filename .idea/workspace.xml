@@ -294,7 +294,23 @@
       <option name="project" value="LOCAL" />
       <updated>1752569960088</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Jenkins file addition and Pom.xml update">
+      <option name="closed" value="true" />
+      <created>1752614759134</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1752614759134</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Jenkins file addition and Pom.xml update">
+      <option name="closed" value="true" />
+      <created>1752614774561</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1752614774561</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -316,7 +332,9 @@
     <MESSAGE value="Update range HRM 150725" />
     <MESSAGE value="Updated after changing Report OrangeHRM 150725" />
     <MESSAGE value="Updated after changing Report folder range HRM 150725" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated after changing Report folder range HRM 150725" />
+    <MESSAGE value="Jenkisn File Addition" />
+    <MESSAGE value="Jenkins file addition and Pom.xml update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Jenkins file addition and Pom.xml update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

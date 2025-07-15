@@ -14,10 +14,10 @@ pipeline {
             }
         }
 
-        stage('Run Maven Tests') {
+        stage('Run Maven Tests with XML') {
             steps {
                 bat """
-                    mvn clean test -Dbrowser=${params.browser} -Denvironment=${params.environment} -Dcucumber.filter.tags="${params.cucumberTags}"
+                    mvn clean test -DsuiteXmlFile=src/test/java/runner/TestRunner.xml -Dbrowser=${params.browser} -Denvironment=${params.environment} -Dcucumber.filter.tags="${params.cucumberTags}"
                 """
             }
         }
@@ -45,7 +45,7 @@ pipeline {
 
     post {
         always {
-            echo "Pipeline execution completed. Check reports in Jenkins."
+            echo "✅ Pipeline execution completed. Check reports in Jenkins."
         }
     }
 }
