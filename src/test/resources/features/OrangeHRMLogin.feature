@@ -29,4 +29,3 @@ Feature: OrangeHRM Admin Portal Login
    # Then An error message "Username cannot be empty" should be displayed
 
 
-s
