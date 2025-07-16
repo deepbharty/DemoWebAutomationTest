@@ -17,15 +17,18 @@ pipeline {
         stage('Run Maven Tests with XML') {
             steps {
                 bat """
-                    mvn clean test -DsuiteXmlFile=src/test/java/runner/TestRunner.xml -Dbrowser=${params.browser} -Denvironment=${params.environment} -Dcucumber.filter.tags="${params.cucumberTags}"
+                    mvn clean test -DsuiteXmlFile=src/test/java/runner/TestRunner.xml ^
+                    -Dbrowser=${params.browser} ^
+                    -Denvironment=${params.environment} ^
+                    -Dcucumber.filter.tags="${params.cucumberTags}"
                 """
             }
         }
 
-        stage('Publish Reports') {
+        stage('Publish HTML Reports') {
             steps {
                 script {
-                    // ✅ Publish Jenkins Extent Report
+                    // ✅ Publish Extent Report
                     publishHTML([
                         reportDir: 'target/ExtentReport',
                         reportFiles: 'ExtentReport.html',
@@ -47,15 +50,26 @@ pipeline {
                 }
             }
         }
+
+        stage('Publish Allure Report') {
+            steps {
+                allure([
+                    includeProperties: false,
+                    jdk: '',
+                    results: [[path: 'target/allure-results']]
+                ])
+            }
+        }
     }
 
     post {
         always {
             echo "✅ Pipeline execution completed. Check reports in Jenkins."
 
-            // Optional: Archive for download if needed
+            // Optional: Archive reports for download
             archiveArtifacts artifacts: 'target/ExtentReport/*.html', allowEmptyArchive: true
             archiveArtifacts artifacts: 'target/cucumber-reports/*.html', allowEmptyArchive: true
+            archiveArtifacts artifacts: 'target/allure-results/**/*.*', allowEmptyArchive: true
         }
     }
 }

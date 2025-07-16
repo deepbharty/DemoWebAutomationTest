@@ -469,7 +469,8 @@
     <MESSAGE value="Commiting after modification of Hooks.java, Jenkins File upgrade, ScreenshotUtils.java" />
     <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
     <MESSAGE value="Updated configureReporter() method: ExtentReportManager.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated configureReporter() method: ExtentReportManager.java" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/test/java/utils/ExtentReportManager.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/test/java/utils/ExtentReportManager.java" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
