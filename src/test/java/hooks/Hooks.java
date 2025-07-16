@@ -14,6 +14,7 @@ import utils.DriverFactory;
 import utils.ExtentReportManager;
 
 import java.io.IOException;
+import java.util.Base64;
 
 public class Hooks {
 
@@ -22,7 +23,6 @@ public class Hooks {
 
     @Before(order = 0)
     public void setUpDriver() {
-
         DriverFactory.initializeDriver();
     }
 
@@ -31,37 +31,54 @@ public class Hooks {
         if (extent == null) {
             extent = ExtentReportManager.getInstance();
         }
-        ExtentTest test = extent.createTest(scenario.getName());
+
+        // ✅ Get Feature Name from URI path
+        String uri = scenario.getUri().toString();  // e.g., file:/.../features/Login.feature
+        String featureName = uri.substring(uri.lastIndexOf("/") + 1).replace(".feature", "");
+
+        // ✅ Get scenario name
+        String scenarioName = scenario.getName();
+
+        // ✅ Get tags
+        String tags = String.join(", ", scenario.getSourceTagNames());
+
+        // ✅ Create Extent Test with feature and scenario name
+        ExtentTest test = extent.createTest(featureName + " - " + scenarioName)
+                .assignCategory(featureName) // Feature as a category
+                .assignCategory(tags);       // Tags as categories
+
         testThreadLocal.set(test);
     }
 
+
     @After(order = 1)
     public void tearDownScenario(Scenario scenario) {
-        ExtentTest test = testThreadLocal.get();
         WebDriver driver = DriverFactory.getDriver();
+        ExtentTest test = testThreadLocal.get();
 
         if (scenario.isFailed()) {
-            test.log(Status.FAIL, "Scenario Failed: " + scenario.getName());
+            test.log(Status.FAIL, "❌ Scenario Failed: " + scenario.getName());
 
             if (driver != null) {
-                // Take screenshot and add to report
-                byte[] screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
-                test.fail("Screenshot of failure",
-                        MediaEntityBuilder.createScreenCaptureFromBase64String(
-                                java.util.Base64.getEncoder().encodeToString(screenshot)).build());
+                // Capture screenshot as base64 and attach
+                byte[] screenshotBytes = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+                String base64Screenshot = Base64.getEncoder().encodeToString(screenshotBytes);
+
+                test.fail("📸 Screenshot of failure:",
+                        MediaEntityBuilder.createScreenCaptureFromBase64String(base64Screenshot).build());
             }
         } else {
-            test.log(Status.PASS, "Scenario Passed: " + scenario.getName());
+            test.log(Status.PASS, "✅ Scenario Passed: " + scenario.getName());
         }
 
-        // Flush report after each scenario
+        // Flush the report (safe to do per scenario in Cucumber)
         extent.flush();
     }
 
     @After(order = 0)
     public void tearDownDriver() {
         DriverFactory.quitDriver();
-        testThreadLocal.remove();
+        testThreadLocal.remove(); // Clean up thread-local memory
     }
 
     public static ExtentTest getTest() {

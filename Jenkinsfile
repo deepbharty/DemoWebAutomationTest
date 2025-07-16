@@ -25,18 +25,24 @@ pipeline {
         stage('Publish Reports') {
             steps {
                 script {
+                    // ✅ Publish Jenkins Extent Report
                     publishHTML([
-                        reportDir: 'reports',
+                        reportDir: 'target/ExtentReport',
                         reportFiles: 'ExtentReport.html',
                         reportName: 'Extent Report',
-                        keepAll: true
+                        keepAll: true,
+                        alwaysLinkToLastBuild: true,
+                        allowMissing: true
                     ])
 
+                    // ✅ Publish Cucumber HTML Report
                     publishHTML([
                         reportDir: 'target/cucumber-reports',
                         reportFiles: 'htmlReport.html',
                         reportName: 'Cucumber HTML Report',
-                        keepAll: true
+                        keepAll: true,
+                        alwaysLinkToLastBuild: true,
+                        allowMissing: true
                     ])
                 }
             }
@@ -46,6 +52,10 @@ pipeline {
     post {
         always {
             echo "✅ Pipeline execution completed. Check reports in Jenkins."
+
+            // Optional: Archive for download if needed
+            archiveArtifacts artifacts: 'target/ExtentReport/*.html', allowEmptyArchive: true
+            archiveArtifacts artifacts: 'target/cucumber-reports/*.html', allowEmptyArchive: true
         }
     }
 }

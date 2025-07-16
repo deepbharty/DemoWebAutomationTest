@@ -14,7 +14,8 @@ public class ScreenshotUtils {
         TakesScreenshot ts = (TakesScreenshot) driver;
         File src = ts.getScreenshotAs(OutputType.FILE);
 
-        String path = "test-output/screenshots/" + scenarioName.replaceAll("[^a-zA-Z0-9]", "_") + ".png";
+        // Store under Jenkins-accessible directory
+        String path = "target/ExtentReport/screenshots/" + scenarioName.replaceAll("[^a-zA-Z0-9]", "_") + ".png";
         File dest = new File(path);
 
         try {
