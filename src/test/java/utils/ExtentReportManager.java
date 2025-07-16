@@ -15,23 +15,23 @@ public class ExtentReportManager {
 
     public static ExtentReports getInstance() throws IOException {
         if (extent == null) {
-            // Define both local and Jenkins paths
-            String localReportPath = "reports/ExtentReport.html";
-            String jenkinsReportPath = "target/ExtentReport/ExtentReport.html";
+            // Define paths
+            String localPath = "reports/ExtentReport.html";
+            String jenkinsPath = "target/ExtentReport/ExtentReport.html";
 
-            // Create directories if they don’t exist
+            // Ensure directories exist
             new File("reports").mkdirs();
             new File("target/ExtentReport").mkdirs();
 
-            // Initialize both reporters
-            ExtentSparkReporter reporterLocal = new ExtentSparkReporter(localReportPath);
-            ExtentSparkReporter reporterJenkins = new ExtentSparkReporter(jenkinsReportPath);
+            // Create reporters
+            ExtentSparkReporter reporterLocal = new ExtentSparkReporter(localPath);
+            ExtentSparkReporter reporterJenkins = new ExtentSparkReporter(jenkinsPath);
 
-            // ✅ Apply configuration manually instead of XML
+            // ✅ Apply configuration to both
             configureReporter(reporterLocal);
             configureReporter(reporterJenkins);
 
-            // Initialize ExtentReports
+            // Attach both reporters
             extent = new ExtentReports();
             extent.attachReporter(reporterLocal, reporterJenkins);
 
@@ -39,7 +39,6 @@ public class ExtentReportManager {
             extent.setSystemInfo("Project", "Website Automation Work");
             extent.setSystemInfo("Tester", "Deepak Bharty");
 
-            // Load additional system info from config.properties
             Properties props = new Properties();
             FileInputStream fis = new FileInputStream("src/test/resources/configurations/config.properties");
             props.load(fis);
@@ -55,11 +54,10 @@ public class ExtentReportManager {
 
     private static void configureReporter(ExtentSparkReporter reporter) {
         reporter.config().setEncoding("utf-8");
-        reporter.config().setTheme(Theme.DARK); // Or Theme.STANDARD
+        reporter.config().setTheme(Theme.DARK);
         reporter.config().setDocumentTitle("BDD Automation Test Report");
         reporter.config().setReportName("Automation Test Report");
-        reporter.config().setTimelineEnabled(true); // ✅ Enables timeline view
-        reporter.config().enableOfflineMode(true);  // ✅ Embeds CSS/JS for Jenkins
-
+        reporter.config().setTimelineEnabled(true);// ✅ Enables timeline view
+        reporter.config().enableOfflineMode(true); // ✅ critical to embed CSS/JS
     }
 }

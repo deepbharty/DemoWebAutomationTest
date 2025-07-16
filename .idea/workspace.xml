@@ -343,7 +343,23 @@
       <option name="project" value="LOCAL" />
       <updated>1752661273937</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Updated configureReporter() method: ExtentReportManager.java">
+      <option name="closed" value="true" />
+      <created>1752683158699</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1752683158699</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Updated configureReporter() method: ExtentReportManager.java">
+      <option name="closed" value="true" />
+      <created>1752683182735</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1752683182735</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -372,7 +388,8 @@
     <MESSAGE value="Merge pull request #4 from deepbharty/master&#10;&#10;main" />
     <MESSAGE value="Commiting after modification of Hooks.java, Jenkins File upgrade, ScreenshotUtils.java" />
     <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/main'" />
+    <MESSAGE value="Updated configureReporter() method: ExtentReportManager.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated configureReporter() method: ExtentReportManager.java" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
