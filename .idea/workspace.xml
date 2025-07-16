@@ -31,17 +31,18 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {}
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/deepbharty/DemoWebAutomationTest&quot;,
-    &quot;accountId&quot;: &quot;28c861bf-bb44-407c-9061-c8611eff9d3f&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/deepbharty/DemoWebAutomationTest.git",
+    "accountId": "28c861bf-bb44-407c-9061-c8611eff9d3f"
   }
-}</component>
+}]]></component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="ProjectErrors" />
   </component>
@@ -310,7 +311,23 @@
       <option name="project" value="LOCAL" />
       <updated>1752614774561</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Commiting after modification of Hooks.java, Jenkins File upgrade, ScreenshotUtils.java">
+      <option name="closed" value="true" />
+      <created>1752661028282</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1752661028283</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Commiting after modification of Hooks.java, Jenkins File upgrade, ScreenshotUtils.java">
+      <option name="closed" value="true" />
+      <created>1752661053172</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1752661053172</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -334,7 +351,11 @@
     <MESSAGE value="Updated after changing Report folder range HRM 150725" />
     <MESSAGE value="Jenkisn File Addition" />
     <MESSAGE value="Jenkins file addition and Pom.xml update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Jenkins file addition and Pom.xml update" />
+    <MESSAGE value="TestRunner.XMl path added &quot;mvn clean test -DsuiteXmlFile=src/test/resources/TestRunner.xml&#10;&quot;" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
+    <MESSAGE value="Merge pull request #4 from deepbharty/master&#10;&#10;main" />
+    <MESSAGE value="Commiting after modification of Hooks.java, Jenkins File upgrade, ScreenshotUtils.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commiting after modification of Hooks.java, Jenkins File upgrade, ScreenshotUtils.java" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
