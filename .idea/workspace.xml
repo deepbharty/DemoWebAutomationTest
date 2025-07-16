@@ -327,7 +327,23 @@
       <option name="project" value="LOCAL" />
       <updated>1752661053172</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Merge remote-tracking branch 'origin/main'">
+      <option name="closed" value="true" />
+      <created>1752661258269</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1752661258269</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Merge remote-tracking branch 'origin/main'">
+      <option name="closed" value="true" />
+      <created>1752661273937</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1752661273937</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -355,7 +371,8 @@
     <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
     <MESSAGE value="Merge pull request #4 from deepbharty/master&#10;&#10;main" />
     <MESSAGE value="Commiting after modification of Hooks.java, Jenkins File upgrade, ScreenshotUtils.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commiting after modification of Hooks.java, Jenkins File upgrade, ScreenshotUtils.java" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/main'" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
