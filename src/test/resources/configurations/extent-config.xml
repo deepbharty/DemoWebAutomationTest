@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+    <configuration>
+
+        <!-- Theme: STANDARD or DARK -->
+        <theme>DARK</theme>
+
+        <!-- Document title -->
+        <documentTitle>Automation Test Report</documentTitle>
+
+        <!-- Report name shown on the top -->
+        <reportName>OrangeHRM Test Execution Report</reportName>
+
+        <!-- Encoding -->
+        <encoding>UTF-8</encoding>
+
+        <!-- Protocol (can be https for secure reports) -->
+        <protocol>https</protocol>
+
+        <!-- Offline mode: Embed CSS and JS locally -->
+        <offlineMode>true</offlineMode>
+
+        <!-- Timeline view in the report -->
+        <timelineEnabled>true</timelineEnabled>
+
+        <!-- Charts -->
+        <charts>
+            <enable>true</enable>
+            <configuration>
+                <chartLocation>top</chartLocation>
+                <theme>dark</theme>
+            </configuration>
+        </charts>
+
+        <!-- Custom CSS (Optional) -->
+        <!--
+        <styles>
+            body {
+                font-family: 'Segoe UI', sans-serif;
+            }
+        </styles>
+        -->
+
+        <!-- Custom JS (Optional) -->
+        <!--
+        <scripts>
+            console.log('Report loaded');
+        </scripts>
+        -->
+
+    </configuration>
+</extentreports>

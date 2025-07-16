@@ -3,9 +3,9 @@
 <suite name="Cucumber Suite with Parameters" verbose="1" parallel="false">
 
     <!-- Global Parameters -->
-    <parameter name="browser" value="chrome" />
-    <parameter name="environment" value="qa" />
-    <parameter name="cucumber.filter.tags" value="@OrangeHRMLogin" />
+    <parameter name="browser" value="chrome"/>
+    <parameter name="environment" value="qa"/>
+    <parameter name="cucumberTags" value="@OrangeHRMLogin"/>
 
     <test name="Run Cucumber Tests">
         <classes>

@@ -1,0 +1,178 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"3a88c80c-49d1-45f1-a564-91d69a27c03c\" name=\"Changes\" comment=\"first commit 03\">\r\n      <change afterPath=\"$PROJECT_DIR$/Jenkinsfile\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/pom.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/pom.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/reports/ExtentReport.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/reports/ExtentReport.html\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/test/resources/features/OrangeHRMLogin.feature\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/resources/features/OrangeHRMLogin.feature\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"ChangesViewManager\" show_ignored=\"true\">\r\n    <option name=\"groupingKeys\">\r\n      <option value=\"directory\" />\r\n      <option value=\"module\" />\r\n      <option value=\"repository\" />\r\n    </option>\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {}\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/deepbharty/DemoWebAutomationTest&quot;,\r\n    &quot;accountId&quot;: &quot;28c861bf-bb44-407c-9061-c8611eff9d3f&quot;\r\n  }\r\n}</component>\r\n  <component name=\"ProblemsViewState\">\r\n    <option name=\"selectedTabId\" value=\"ProjectErrors\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 1\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2vz2Zefc2nBt9FMpHLYu1XQQOjC\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;Cucumber Java.Feature: JenkinsLogin.executor&quot;: &quot;Run&quot;,\r\n    &quot;Cucumber Java.Feature: start.executor&quot;: &quot;Run&quot;,\r\n    &quot;Maven.DemoWebAutomationTest [install].executor&quot;: &quot;Run&quot;,\r\n    &quot;Maven.DemoWebAutomationTest [test].executor&quot;: &quot;Run&quot;,\r\n    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,\r\n    &quot;TestNG./Users/a1xizd7d/IdeaProjects/DemoWebAutomationTest/src/test/java/runner/testRunner.xml.executor&quot;: &quot;Run&quot;,\r\n    &quot;TestNG.Maths.executor&quot;: &quot;Run&quot;,\r\n    &quot;TestNG.TestRunner.executor&quot;: &quot;Coverage&quot;,\r\n    &quot;git-widget-placeholder&quot;: &quot;main&quot;,\r\n    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;E:/AutomationWorkSpace/DemoWebAutomationTest&quot;,\r\n    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/a1xizd7d/IdeaProjects/DemoWebAutomationTest/src/main/java/DemoTestAPiAutomation/Main.java&quot;,\r\n    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,\r\n    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,\r\n    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.CSV/TSV/PSV&quot;\r\n  },\r\n  &quot;keyToStringList&quot;: {\r\n    &quot;GitStage.ChangesTree.GroupingKeys&quot;: [\r\n      &quot;directory&quot;,\r\n      &quot;module&quot;,\r\n      &quot;repository&quot;\r\n    ]\r\n  }\r\n}</component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"E:\\AutomationWorkSpace\\DemoWebAutomationTest\\src\\test\\java\\config\" />\r\n      <recent name=\"$PROJECT_DIR$/src/test/java\" />\r\n    </key>\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"E:\\AutomationWorkSpace\\DemoWebAutomationTest\\src\\test\\resources\\configurations\" />\r\n      <recent name=\"$PROJECT_DIR$/src/test/resources\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"TestNG./Users/a1xizd7d/IdeaProjects/DemoWebAutomationTest/src/test/java/runner/testRunner.xml\">\r\n    <configuration name=\"Feature: JenkinsLogin\" type=\"CucumberJavaRunConfigurationType\" factoryName=\"Cucumber java\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"CUCUMBER_CORE_VERSION\" value=\"5\" />\r\n      <option name=\"FILE_PATH\" value=\"$PROJECT_DIR$/src/test/resources/features/JenkinsLogin.feature\" />\r\n      <option name=\"GLUE\" value=\"stepDefinations\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"io.cucumber.core.cli.Main\" />\r\n      <module name=\"DemoWebAutomationTest\" />\r\n      <option name=\"PROGRAM_PARAMETERS\" value=\" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter\" />\r\n      <option name=\"SUGGESTED_NAME\" value=\"Feature: JenkinsLogin\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$MODULE_WORKING_DIR$\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"io.cucumber.core.cli.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Feature: start\" type=\"CucumberJavaRunConfigurationType\" factoryName=\"Cucumber java\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"CUCUMBER_CORE_VERSION\" value=\"5\" />\r\n      <option name=\"FILE_PATH\" value=\"$PROJECT_DIR$/src/test/resources/features/start.feature\" />\r\n      <option name=\"GLUE\" value=\"stepDefinitions\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"io.cucumber.core.cli.Main\" />\r\n      <module name=\"DemoWebAutomationTest\" />\r\n      <option name=\"PROGRAM_PARAMETERS\" value=\" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter\" />\r\n      <option name=\"SUGGESTED_NAME\" value=\"Feature: start\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$MODULE_WORKING_DIR$\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"io.cucumber.core.cli.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Scenario: Verify if code run successfully or not\" type=\"CucumberJavaRunConfigurationType\" factoryName=\"Cucumber java\" nameIsGenerated=\"true\">\r\n      <option name=\"CUCUMBER_CORE_VERSION\" value=\"5\" />\r\n      <option name=\"FILE_PATH\" value=\"$PROJECT_DIR$/src/test/resources/features/start.feature\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"io.cucumber.core.cli.Main\" />\r\n      <module name=\"DemoWebAutomationTest\" />\r\n      <option name=\"NAME_FILTER\" value=\"^Verify if code run successfully or not$\" />\r\n      <option name=\"PROGRAM_PARAMETERS\" value=\" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify if code run successfully or not$&quot;\" />\r\n      <shortenClasspath name=\"NONE\" />\r\n      <option name=\"SUGGESTED_NAME\" value=\"Scenario: Verify if code run successfully or not\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$MODULE_WORKING_DIR$\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"io.cucumber.core.cli.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Maths\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"DemoWebAutomationTest\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"stepDefinations.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"stepDefinations\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"stepDefinations.Maths\" />\r\n      <option name=\"TEST_OBJECT\" value=\"CLASS\" />\r\n      <properties />\r\n      <listeners />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"TestRunner\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"DemoWebAutomationTest\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"runner.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"runner\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"runner.TestRunner\" />\r\n      <option name=\"TEST_OBJECT\" value=\"CLASS\" />\r\n      <properties />\r\n      <listeners />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"/Users/a1xizd7d/IdeaProjects/DemoWebAutomationTest/src/test/java/runner/testRunner.xml\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"DemoWebAutomationTest\" />\r\n      <option name=\"SUITE_NAME\" value=\"$PROJECT_DIR$/src/test/java/runner/testRunner.xml\" />\r\n      <option name=\"TEST_OBJECT\" value=\"SUITE\" />\r\n      <properties />\r\n      <listeners />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"TestNG./Users/a1xizd7d/IdeaProjects/DemoWebAutomationTest/src/test/java/runner/testRunner.xml\" />\r\n        <item itemvalue=\"Cucumber Java.Feature: start\" />\r\n        <item itemvalue=\"TestNG.TestRunner\" />\r\n        <item itemvalue=\"Cucumber Java.Feature: JenkinsLogin\" />\r\n        <item itemvalue=\"TestNG.Maths\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"3a88c80c-49d1-45f1-a564-91d69a27c03c\" name=\"Changes\" comment=\"\" />\r\n      <created>1745133639061</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1745133639061</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"first commit\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1748376470122</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1748376470122</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"first commit\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1748376526060</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1748376526060</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"first commit\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1748377347965</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1748377347965</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"first commit\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1748377528959</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1748377528959</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"first commit\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1748377600573</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1748377600573</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"Update range HRM 150725\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1752525797071</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1752525797071</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"Update range HRM 150725\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1752525811388</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1752525811388</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"Updated after changing Report folder range HRM 150725\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1752569222721</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1752569222721</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"Updated after changing Report folder range HRM 150725\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1752569903517</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1752569903517</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00010\" summary=\"Updated after changing Report folder range HRM 150725\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1752569960088</created>\r\n      <option name=\"number\" value=\"00010\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1752569960088</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00011\" summary=\"Jenkins file addition and Pom.xml update\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1752614759134</created>\r\n      <option name=\"number\" value=\"00011\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1752614759134</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00012\" summary=\"Jenkins file addition and Pom.xml update\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1752614774561</created>\r\n      <option name=\"number\" value=\"00012\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00012\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1752614774561</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"13\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"UnknownFeatures\">\r\n    <option featureType=\"com.intellij.fileTypeFactory\" implementationName=\"Jenkinsfile\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"first commit\" />\r\n    <MESSAGE value=\"Update range HRM 150725\" />\r\n    <MESSAGE value=\"Updated after changing Report OrangeHRM 150725\" />\r\n    <MESSAGE value=\"Updated after changing Report folder range HRM 150725\" />\r\n    <MESSAGE value=\"Jenkisn File Addition\" />\r\n    <MESSAGE value=\"Jenkins file addition and Pom.xml update\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Jenkins file addition and Pom.xml update\" />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\r\n          <url>file://$PROJECT_DIR$/src/main/java/DemoTestAPiAutomation/Main.java</url>\r\n          <line>13</line>\r\n          <option name=\"timeStamp\" value=\"1\" />\r\n        </line-breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n  </component>\r\n  <component name=\"com.intellij.coverage.CoverageDataManagerImpl\">\r\n    <SUITE FILE_PATH=\"coverage/DemoWebAutomationTest$TestRunner.ic\" NAME=\"TestRunner Coverage Results\" MODIFIED=\"1745234638699\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"idea\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"true\">\r\n      <FILTER>runner.*</FILTER>\r\n    </SUITE>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 3514d768e81eae04b49579e7b1f5f125abe72f6d)
++++ b/.idea/workspace.xml	(date 1752618320040)
+@@ -31,17 +31,32 @@
+     </option>
+   </component>
+   <component name="Git.Settings">
++    <option name="RECENT_BRANCH_BY_REPOSITORY">
++      <map>
++        <entry key="$PROJECT_DIR$" value="main" />
++      </map>
++    </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+   <component name="GitHubPullRequestSearchHistory">{
+   &quot;lastFilter&quot;: {}
+ }</component>
+-  <component name="GithubPullRequestsUISettings">{
+-  &quot;selectedUrlAndAccountId&quot;: {
+-    &quot;url&quot;: &quot;https://github.com/deepbharty/DemoWebAutomationTest&quot;,
+-    &quot;accountId&quot;: &quot;28c861bf-bb44-407c-9061-c8611eff9d3f&quot;
++  <component name="GithubPullRequestsUISettings"><![CDATA[{
++  "selectedUrlAndAccountId": {
++    "url": "https://github.com/deepbharty/DemoWebAutomationTest",
++    "accountId": "28c861bf-bb44-407c-9061-c8611eff9d3f"
++  },
++  "recentNewPullRequestHead": {
++    "server": {
++      "useHttp": false,
++      "host": "github.com",
++      "port": null,
++      "suffix": null
++    },
++    "owner": "deepbharty",
++    "repository": "DemoWebAutomationTest"
+   }
+-}</component>
++}]]></component>
+   <component name="ProblemsViewState">
+     <option name="selectedTabId" value="ProjectErrors" />
+   </component>
+@@ -53,35 +68,35 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent">{
+-  &quot;keyToString&quot;: {
+-    &quot;Cucumber Java.Feature: JenkinsLogin.executor&quot;: &quot;Run&quot;,
+-    &quot;Cucumber Java.Feature: start.executor&quot;: &quot;Run&quot;,
+-    &quot;Maven.DemoWebAutomationTest [install].executor&quot;: &quot;Run&quot;,
+-    &quot;Maven.DemoWebAutomationTest [test].executor&quot;: &quot;Run&quot;,
+-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+-    &quot;TestNG./Users/a1xizd7d/IdeaProjects/DemoWebAutomationTest/src/test/java/runner/testRunner.xml.executor&quot;: &quot;Run&quot;,
+-    &quot;TestNG.Maths.executor&quot;: &quot;Run&quot;,
+-    &quot;TestNG.TestRunner.executor&quot;: &quot;Coverage&quot;,
+-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+-    &quot;last_opened_file_path&quot;: &quot;E:/AutomationWorkSpace/DemoWebAutomationTest&quot;,
+-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/a1xizd7d/IdeaProjects/DemoWebAutomationTest/src/main/java/DemoTestAPiAutomation/Main.java&quot;,
+-    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
+-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.CSV/TSV/PSV&quot;
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "Cucumber Java.Feature: JenkinsLogin.executor": "Run",
++    "Cucumber Java.Feature: start.executor": "Run",
++    "Maven.DemoWebAutomationTest [install].executor": "Run",
++    "Maven.DemoWebAutomationTest [test].executor": "Run",
++    "ModuleVcsDetector.initialDetectionPerformed": "true",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "RunOnceActivity.git.unshallow": "true",
++    "TestNG./Users/a1xizd7d/IdeaProjects/DemoWebAutomationTest/src/test/java/runner/testRunner.xml.executor": "Run",
++    "TestNG.Maths.executor": "Run",
++    "TestNG.TestRunner.executor": "Coverage",
++    "git-widget-placeholder": "#4 on master",
++    "kotlin-language-version-configured": "true",
++    "last_opened_file_path": "E:/AutomationWorkSpace/DemoWebAutomationTest",
++    "onboarding.tips.debug.path": "/Users/a1xizd7d/IdeaProjects/DemoWebAutomationTest/src/main/java/DemoTestAPiAutomation/Main.java",
++    "project.structure.last.edited": "Problems",
++    "project.structure.proportion": "0.0",
++    "project.structure.side.proportion": "0.2",
++    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.CSV/TSV/PSV"
+   },
+-  &quot;keyToStringList&quot;: {
+-    &quot;GitStage.ChangesTree.GroupingKeys&quot;: [
+-      &quot;directory&quot;,
+-      &quot;module&quot;,
+-      &quot;repository&quot;
++  "keyToStringList": {
++    "GitStage.ChangesTree.GroupingKeys": [
++      "directory",
++      "module",
++      "repository"
+     ]
+   }
+-}</component>
++}]]></component>
+   <component name="RecentsManager">
+     <key name="CopyFile.RECENT_KEYS">
+       <recent name="E:\AutomationWorkSpace\DemoWebAutomationTest\src\test\java\config" />
+@@ -310,7 +325,39 @@
+       <option name="project" value="LOCAL" />
+       <updated>1752614774561</updated>
+     </task>
+-    <option name="localTasksCounter" value="13" />
++    <task id="LOCAL-00013" summary="TestRunner.XMl path added &quot;mvn clean test -DsuiteXmlFile=src/test/resources/TestRunner.xml&#10;&quot;">
++      <option name="closed" value="true" />
++      <created>1752617604729</created>
++      <option name="number" value="00013" />
++      <option name="presentableId" value="LOCAL-00013" />
++      <option name="project" value="LOCAL" />
++      <updated>1752617604729</updated>
++    </task>
++    <task id="LOCAL-00014" summary="TestRunner.XMl path added &quot;mvn clean test -DsuiteXmlFile=src/test/resources/TestRunner.xml&#10;&quot;">
++      <option name="closed" value="true" />
++      <created>1752617619799</created>
++      <option name="number" value="00014" />
++      <option name="presentableId" value="LOCAL-00014" />
++      <option name="project" value="LOCAL" />
++      <updated>1752617619799</updated>
++    </task>
++    <task id="LOCAL-00015" summary="TestRunner.XMl path added &quot;mvn clean test -DsuiteXmlFile=src/test/resources/TestRunner.xml&#10;&quot;">
++      <option name="closed" value="true" />
++      <created>1752617631490</created>
++      <option name="number" value="00015" />
++      <option name="presentableId" value="LOCAL-00015" />
++      <option name="project" value="LOCAL" />
++      <updated>1752617631490</updated>
++    </task>
++    <task id="LOCAL-00016" summary="Merge remote-tracking branch 'origin/master'">
++      <option name="closed" value="true" />
++      <created>1752617872311</created>
++      <option name="number" value="00016" />
++      <option name="presentableId" value="LOCAL-00016" />
++      <option name="project" value="LOCAL" />
++      <updated>1752617872311</updated>
++    </task>
++    <option name="localTasksCounter" value="17" />
+     <servers />
+   </component>
+   <component name="UnknownFeatures">
+@@ -334,7 +381,9 @@
+     <MESSAGE value="Updated after changing Report folder range HRM 150725" />
+     <MESSAGE value="Jenkisn File Addition" />
+     <MESSAGE value="Jenkins file addition and Pom.xml update" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Jenkins file addition and Pom.xml update" />
++    <MESSAGE value="TestRunner.XMl path added &quot;mvn clean test -DsuiteXmlFile=src/test/resources/TestRunner.xml&#10;&quot;" />
++    <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
++    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'" />
+   </component>
+   <component name="XDebuggerManager">
+     <breakpoint-manager>
+Index: src/test/resources/features/OrangeHRMLogin.feature
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>@OrangeHRMLogin\r\n\r\nFeature: OrangeHRM Admin Portal Login\r\n\r\n  As an Admin user\r\n  I want to login to the OrangeHRM portal\r\n  So that I can access the admin dashboard\r\n\r\n  Background:\r\n    Given User is on the OrangeHRM login page\r\n\r\n  Scenario: Successful login with valid credentials\r\n    When User enters username\r\n    And User enters password\r\n    And User clicks on the Login button\r\n    Then User should be redirected to the Dashboard page\r\n    And Page title should be \"OrangeHRM\"\r\n\r\n\r\n\r\n  Scenario: Unsuccessful login with invalid credentials\r\n    When User enters wrong username\r\n    And User enters wrong password\r\n    And User clicks on the Login button\r\n    Then An error message \"Invalid credentials\" should be displayed\r\n\r\n # Scenario: Login attempt with empty username and password\r\n   # When User clicks on the Login button\r\n   # Then An error message \"Username cannot be empty\" should be displayed\r\n\r\n\r\ns
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/resources/features/OrangeHRMLogin.feature b/src/test/resources/features/OrangeHRMLogin.feature
+--- a/src/test/resources/features/OrangeHRMLogin.feature	(revision 3514d768e81eae04b49579e7b1f5f125abe72f6d)
++++ b/src/test/resources/features/OrangeHRMLogin.feature	(date 1752619232853)
+@@ -29,4 +29,3 @@
+    # Then An error message "Username cannot be empty" should be displayed
+ 
+ 
+-s
+\ No newline at end of file
