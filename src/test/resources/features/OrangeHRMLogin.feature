@@ -25,7 +25,7 @@ Feature: OrangeHRM Admin Portal Login
     Then An error message "Invalid credentials" should be displayed
 
  Scenario: Login attempt with empty username and password
-   When User clicks on the Login button
-   Then An error message "Username cannot be empty" should be displayed
+  When User clicks on the Login button
+  Then An error message "Username cannot be empty" should be displayed
 
 
