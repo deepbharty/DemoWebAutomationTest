@@ -37,12 +37,12 @@
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {}
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/deepbharty/DemoWebAutomationTest.git",
-    "accountId": "28c861bf-bb44-407c-9061-c8611eff9d3f"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/deepbharty/DemoWebAutomationTest.git&quot;,
+    &quot;accountId&quot;: &quot;28c861bf-bb44-407c-9061-c8611eff9d3f&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="ProjectErrors" />
   </component>
@@ -399,7 +399,47 @@
       <option name="project" value="LOCAL" />
       <updated>1752685774944</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Updated configureReporter() method: ExtentReportManager.java">
+      <option name="closed" value="true" />
+      <created>1752687689742</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1752687689742</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Updated configureReporter() method: ExtentReportManager.java">
+      <option name="closed" value="true" />
+      <created>1752687696880</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1752687696880</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Updated configureReporter() method: ExtentReportManager.java">
+      <option name="closed" value="true" />
+      <created>1752687711070</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1752687711070</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Updated configureReporter() method: ExtentReportManager.java">
+      <option name="closed" value="true" />
+      <created>1752687723007</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1752687723007</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Updated configureReporter() method: ExtentReportManager.java">
+      <option name="closed" value="true" />
+      <created>1752687733436</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1752687733436</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="UnknownFeatures">

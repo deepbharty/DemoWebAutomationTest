@@ -2,65 +2,64 @@ package utils;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
+import com.aventstack.extentreports.reporter.configuration.Theme;
 
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.util.Date;
 import java.util.Properties;
-import java.util.logging.Logger;
 
 public class ExtentReportManager {
 
     private static ExtentReports extent;
-    private static final Logger LOGGER = Logger.getLogger(ExtentReportManager.class.getName());
 
-    public static ExtentReports getInstance() {
+    public static ExtentReports getInstance() throws IOException {
         if (extent == null) {
-            try {
-                // Load config.properties
-                Properties props = new Properties();
-                props.load(new FileInputStream("src/test/resources/configurations/config.properties"));
+            // Define both local and Jenkins paths
+            String localReportPath = "reports/ExtentReport.html";
+            String jenkinsReportPath = "target/ExtentReport/ExtentReport.html";
 
-                // Define report paths (can be modified via config)
-                String localPath = props.getProperty("extent.report.local.path", "reports/ExtentReport.html");
-                String jenkinsPath = props.getProperty("extent.report.path", "target/ExtentReport/ExtentReport.html");
+            // Create directories if they don’t exist
+            new File("reports").mkdirs();
+            new File("target/ExtentReport").mkdirs();
 
-                // Ensure directories exist
-                new File(localPath).getParentFile().mkdirs();
-                new File(jenkinsPath).getParentFile().mkdirs();
+            // Initialize both reporters
+            ExtentSparkReporter reporterLocal = new ExtentSparkReporter(localReportPath);
+            ExtentSparkReporter reporterJenkins = new ExtentSparkReporter(jenkinsReportPath);
 
-                // Create Spark Reporters
-                ExtentSparkReporter localReporter = new ExtentSparkReporter(localPath);
-                ExtentSparkReporter jenkinsReporter = new ExtentSparkReporter(jenkinsPath);
+            // ✅ Apply configuration manually instead of XML
+            configureReporter(reporterLocal);
+            configureReporter(reporterJenkins);
 
-                // Load shared config XML
-                String configXML = "src/test/resources/configurations/extent-config.xml";
-                localReporter.loadXMLConfig(configXML);
-                jenkinsReporter.loadXMLConfig(configXML);
+            // Initialize ExtentReports
+            extent = new ExtentReports();
+            extent.attachReporter(reporterLocal, reporterJenkins);
 
-                extent = new ExtentReports();
-                extent.attachReporter(localReporter, jenkinsReporter);
+            // System Info
+            extent.setSystemInfo("Project", "Website Automation Work");
+            extent.setSystemInfo("Tester", "Deepak Bharty");
 
-                // Set common system info
-                extent.setSystemInfo("Project", props.getProperty("project.name", "Website Automation Work"));
-                extent.setSystemInfo("Tester", props.getProperty("tester.name", "Deepak Bharty"));
-                extent.setSystemInfo("Browser", props.getProperty("browser", "chrome"));
-                extent.setSystemInfo("Base URL", props.getProperty("baseURL", "http://localhost"));
-                extent.setSystemInfo("Username", props.getProperty("username", "testuser"));
-                extent.setSystemInfo("Environment", props.getProperty("environment", "QA"));
-                extent.setSystemInfo("Generated On", new Date().toString());
+            // Load additional system info from config.properties
+            Properties props = new Properties();
+            FileInputStream fis = new FileInputStream("src/test/resources/configurations/config.properties");
+            props.load(fis);
 
-                // Jenkins build URL if available
-                String jenkinsURL = System.getenv("BUILD_URL");
-                if (jenkinsURL != null) {
-                    extent.setSystemInfo("Jenkins Job", jenkinsURL);
-                }
-
-            } catch (IOException e) {
-                LOGGER.warning("Failed to initialize ExtentReports: " + e.getMessage());
-            }
+            extent.setSystemInfo("Browser", props.getProperty("browser"));
+            extent.setSystemInfo("Base URL", props.getProperty("baseURL"));
+            extent.setSystemInfo("Username", props.getProperty("username"));
+            extent.setSystemInfo("Environment", "QA");
         }
+
         return extent;
+    }
+
+    private static void configureReporter(ExtentSparkReporter reporter) {
+        reporter.config().setEncoding("utf-8");
+        reporter.config().setTheme(Theme.DARK); // Or Theme.STANDARD
+        reporter.config().setDocumentTitle("BDD Automation Test Report");
+        reporter.config().setReportName("Automation Test Report");
+        reporter.config().setTimelineEnabled(true); // ✅ Enables timeline view
+        reporter.config().enableOfflineMode(true);  // ✅ Embeds CSS/JS for Jenkins
+
     }
 }
