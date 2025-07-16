@@ -2,6 +2,7 @@ package utils;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
+import com.aventstack.extentreports.reporter.configuration.Theme;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -26,15 +27,15 @@ public class ExtentReportManager {
             ExtentSparkReporter reporterLocal = new ExtentSparkReporter(localReportPath);
             ExtentSparkReporter reporterJenkins = new ExtentSparkReporter(jenkinsReportPath);
 
-            // Load common configuration (XML theme, etc.)
-            String configXML = "src/test/resources/configurations/extent-config.xml";
-            reporterLocal.loadXMLConfig(configXML);
-            reporterJenkins.loadXMLConfig(configXML);
+            // ✅ Apply configuration manually instead of XML
+            configureReporter(reporterLocal);
+            configureReporter(reporterJenkins);
 
+            // Initialize ExtentReports
             extent = new ExtentReports();
             extent.attachReporter(reporterLocal, reporterJenkins);
 
-            // Set system info
+            // System Info
             extent.setSystemInfo("Project", "Website Automation Work");
             extent.setSystemInfo("Tester", "Deepak Bharty");
 
@@ -50,5 +51,15 @@ public class ExtentReportManager {
         }
 
         return extent;
+    }
+
+    private static void configureReporter(ExtentSparkReporter reporter) {
+        reporter.config().setEncoding("utf-8");
+        reporter.config().setTheme(Theme.DARK); // Or Theme.STANDARD
+        reporter.config().setDocumentTitle("BDD Automation Test Report");
+        reporter.config().setReportName("Automation Test Report");
+        reporter.config().setTimelineEnabled(true); // ✅ Enables timeline view
+        reporter.config().enableOfflineMode(true);  // ✅ Embeds CSS/JS for Jenkins
+
     }
 }
