@@ -14,10 +14,11 @@ pipeline {
             }
         }
 
-        stage('Run Maven Tests with XML') {
+        stage('Run Maven Tests') {
             steps {
                 bat """
-                    mvn clean test -DsuiteXmlFile=src/test/java/runner/TestRunner.xml ^
+                    mvn clean test ^
+                    -DsuiteXmlFile=src/test/java/runner/TestRunner.xml ^
                     -Dbrowser=${params.browser} ^
                     -Denvironment=${params.environment} ^
                     -Dcucumber.filter.tags="${params.cucumberTags}"
@@ -28,7 +29,7 @@ pipeline {
         stage('Publish HTML Reports') {
             steps {
                 script {
-                    // ✅ Publish Extent Report
+                    // Extent Report
                     publishHTML([
                         reportDir: 'target/ExtentReport',
                         reportFiles: 'ExtentReport.html',
@@ -38,7 +39,7 @@ pipeline {
                         allowMissing: true
                     ])
 
-                    // ✅ Publish Cucumber HTML Report
+                    // Cucumber HTML Report
                     publishHTML([
                         reportDir: 'target/cucumber-reports',
                         reportFiles: 'htmlReport.html',
@@ -54,9 +55,9 @@ pipeline {
         stage('Publish Allure Report') {
             steps {
                 allure([
+                    results: [[path: 'target/allure-results']],
                     includeProperties: false,
-                    jdk: '',
-                    results: [[path: 'target/allure-results']]
+                    reportBuildPolicy: 'ALWAYS'
                 ])
             }
         }
@@ -66,7 +67,7 @@ pipeline {
         always {
             echo "✅ Pipeline execution completed. Check reports in Jenkins."
 
-            // Optional: Archive reports for download
+            // Archiving all reports
             archiveArtifacts artifacts: 'target/ExtentReport/*.html', allowEmptyArchive: true
             archiveArtifacts artifacts: 'target/cucumber-reports/*.html', allowEmptyArchive: true
             archiveArtifacts artifacts: 'target/allure-results/**/*.*', allowEmptyArchive: true
